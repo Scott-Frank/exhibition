@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 声明字符编码，让浏览器正确显示中文 -->
+    <meta charset="UTF-8">
+    <!-- 让网页在移动设备上有更好的显示效果 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网页标题，显示在浏览器标签上 -->
+    <title>我的第二个网页 - 图片与链接</title>
+</head>
+<body>
+    <!-- 页面主体内容从这里开始 --> 
+     
+    <!-- 一级大标题，通常一个页面只有一个 -->
+    <h1>欢迎来到我的练习网页</h1>
+    <p>看看字号大小</p>
+
+    <!-- 二级小标题，用于划分章节 -->
+    <h2>这里有一些好看的图片</h2>
+
+    <!-- 段落文字，可以写一些介绍 -->
+    <p>下面几张图片是从网上找的免费素材，你可以右键点击图片，选择“在新标签页中打开图片”来查看原图。</p>
+
+    <!-- 插入图片的几种方式 -->
+    <!-- 1. 普通图片，使用来自 picsum 的随机图片（每次刷新可能变化） -->
+    <h3>图片一：随机风景</h3>
+    <img src="https://picsum.photos/400/300?random=1" alt="随机生成的风景图" width="400" height="300">
+    <!-- alt属性在图片无法显示时提供替代文字，也有助于无障碍阅读 -->
+
+    <!-- 2. 图片下面加一段描述 -->
+    <h3>图片二：固定图片（来自占位图网站）</h3>
+    <img src="images\display.jpg" alt="本地图片" width="400" height="300">
+    <p>上图是本地图片，虎门大桥航拍</p>
+
+    <!-- 3. 将图片作为链接：点击图片跳转到另一个网站 -->
+    <h3>图片三：点击图片跳转到百度</h3>
+    <a href="https://www.baidu.com" target="_blank">  
+        <img src="https://picsum.photos/id/1043/400/300" alt="点击访问百度" width="400" height="300">
+    </a>
+    <p>点击上面的图片，会在新标签页打开百度。</p>
+
+    <!-- 分割线，使内容更清晰 -->
+    <hr>
+
+    <!-- 另一个小标题，关于链接 -->
+    <h2>常用的链接</h2>
+
+    <!-- 普通文字链接 -->
+    <p>如果你需要搜索信息，可以访问 <a href="https://www.baidu.com" target="_blank">百度</a>。</p>
+    <p>如果想看视频，可以逛逛 <a href="https://www.bilibili.com" target="_blank">哔哩哔哩</a>，上面有很多有趣的内容。</p>
+
+    <!-- 使用列表展示更多链接 -->
+    <h3>其他推荐网站（列表形式）</h3>
+    <ol>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a> - 程序员协作平台</li>
+        <li><a href="https://www.zhihu.com" target="_blank">知乎</a> - 中文问答社区</li>
+        <li><a href="https://www.taobao.com" target="_blank">淘宝</a> - 购物网站</li>
+    </ol>
+
+    <!-- 加一个额外的说明区块 -->
+    <h2>小提示</h2>
+    <p>所有的链接都设置了 <code>target="_blank"</code> 属性，所以点击后会在新的浏览器标签页中打开，不会覆盖当前页面。</p>
+
+    <!-- 水平线再次分割 -->
+    <hr>
+
+    <!-- 页脚部分，显示版权信息 -->
+    <footer>
+        <p>&copy;; 2025 我的练习网页。图片来自 <a href="https://picsum.photos" target="_blank">Lorem Picsum</a>。</p>
+    </footer>
+
+    <!-- 页面主体内容结束 -->
+</body>
+</html>
